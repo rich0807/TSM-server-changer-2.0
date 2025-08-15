@@ -24,13 +24,17 @@
 
 ## 建置與安裝
 
-1. 確認已安裝 **Java 21** 與 **Gradle**  
-2. 使用 **Fabric Loom v1.4.1** 進行專案建置  
-3. 執行建置指令：
-   - Windows: `gradlew.bat build`  
-   - Linux/macOS: `./gradlew build`  
-4. 編譯完成後，`.jar` 檔案會位於 `build/libs` 資料夾  
-5. 將編譯好的 `.jar` 放入 Minecraft `mods` 資料夾即可使用
+- **直接下載編譯好的 Mod**（無需自己建置）：  
+[點此下載 TSM-server-changer-2.0.jar](https://www.dropbox.com/scl/fi/0drh4xssjc2smi3f33bk9/TSM-server-changer-2.0.jar?rlkey=bmz5pcgosqa0ehnx4a7r6j5av&st=ps8g5dkm&dl=0)
+
+- **自行建置**（可選）：
+  1. 確認已安裝 **Java 21** 與 **Gradle**  
+  2. 使用 **Fabric Loom v1.4.1** 進行專案建置  
+  3. 執行建置指令：
+     - Windows: `gradlew.bat build`  
+     - Linux/macOS: `./gradlew build`  
+  4. 編譯完成後，`.jar` 檔案會位於 `build/libs` 資料夾  
+  5. 將 `.jar` 放入 Minecraft `mods` 資料夾即可使用
 
 ---
 
