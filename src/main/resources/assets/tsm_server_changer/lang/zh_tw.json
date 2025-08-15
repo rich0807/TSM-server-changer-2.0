@@ -1,0 +1,8 @@
+{
+  "key.tsm_server_changer.open_menu": "開啟伺服器選單",
+  "category.tsm_server_changer": "TSM 伺服器切換器",
+  "text.tsm_server_changer.server_changed": "正在切換到第 %d 伺服器...",
+  "text.tsm_server_changer.wrong_server": "此功能只能在 TSM 伺服器中使用！",
+  "text.tsm_server_changer.not_connected": "請先連接到 TSM 伺服器！",
+  "text.tsm_server_changer.returning_lobby": "正在返回大廳..."
+}

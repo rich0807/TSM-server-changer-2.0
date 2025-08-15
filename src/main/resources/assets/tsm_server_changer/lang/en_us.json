@@ -1,0 +1,8 @@
+{
+  "key.tsm_server_changer.open_menu": "Open Server Menu",
+  "category.tsm_server_changer": "TSM Server Changer",
+  "text.tsm_server_changer.server_changed": "Switching to server %d...",
+  "text.tsm_server_changer.wrong_server": "This feature can only be used on TSM servers!",
+  "text.tsm_server_changer.not_connected": "Please connect to a TSM server first!",
+  "text.tsm_server_changer.returning_lobby": "Returning to lobby..."
+}

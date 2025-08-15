@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.charleshsu.tsmserverchanger.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "tsm_server_changer.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

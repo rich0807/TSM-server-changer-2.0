@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "tsmserverchanger",
+  "version": "${version}",
+  "name": "TSM Server Changer",
+  "description": "一個可以在遊戲中快速切換 TSM 伺服器的模組",
+  "authors": [
+    "CharlesHsu-noob",
+    "Claude AI"
+  ],
+  "contact": {
+    "homepage": "https://github.com/CharlesHsu-noob/TSM_server_changer",
+    "sources": "https://github.com/CharlesHsu-noob/TSM_server_changer"
+  },
+  "license": "MIT",
+  "icon": "assets/tsm_server_changer/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.charleshsu.tsmserverchanger.TSMServerChangerMod"
+    ]
+  },
+  "mixins": [
+    "tsm_server_changer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "fabric": "*",
+    "minecraft": "1.21.4",
+    "java": ">=21"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
