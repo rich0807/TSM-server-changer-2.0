@@ -3,15 +3,15 @@
 	"id": "tsm-server-changer",
 	"version": "${version}",
 	"name": "TSM-server-changer 2.0",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+"description": "TSM-server- changer 2.0是一款基於Fabric的Minecraft客戶端Mod，用於在進入伺服器時自動切換到「2服」。",
 	"authors": [
-		"Me!"
+		"rich0807"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/rich0807",
+		"sources": "https://github.com/rich0807/TSM-server-changer-2.0/tree/main"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/tsm-server-changer/icon.png",
 	"environment": "client",
 	"entrypoints": {
@@ -26,11 +26,10 @@
 		"tsm-server-changer.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.17.2",
-		"minecraft": "~1.21.4",
-		"java": ">=21",
-		"fabric-api": "*"
-	},
+    "fabricloader": ">=0.15.0",
+    "fabric": "*",
+	"minecraft": "1.21.4"
+  },
 	"suggests": {
 		"another-mod": "*"
 	}
